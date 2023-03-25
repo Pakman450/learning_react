@@ -5,6 +5,7 @@ import './App.css'
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
+import Message from './components/Message'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,9 +13,9 @@ function App() {
   return (
     <div className="App">
 
+      <Message/>
 
-
-      <Greet name='Steven'>
+      {/* <Greet name='Steven'>
         <p1> heeee </p1> 
       </Greet>  
 
@@ -26,7 +27,7 @@ function App() {
 
 
       <Greet name='even'/>  
-      <Welcome name='bob'/> 
+      <Welcome name='bob'/>  */}
       {/* <Hello/> */} 
     </div>
   )
