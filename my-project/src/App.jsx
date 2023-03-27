@@ -14,8 +14,8 @@ function App() {
     <div className="App">
 
       <Message/>
-
-      {/* <Greet name='Steven'>
+{/* 
+      <Greet name='Steven'>
         <p1> heeee </p1> 
       </Greet>  
 
@@ -23,11 +23,11 @@ function App() {
 
       <Greet name='teven'> 
         <button>Press me</button>
-      </Greet>
+      </Greet> */}
 
 
-      <Greet name='even'/>  
-      <Welcome name='bob'/>  */}
+      <Greet name='even' children='lol'/>  
+      {/* <Welcome name='bob'/>  */}
       {/* <Hello/> */} 
     </div>
   )
