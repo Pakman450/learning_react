@@ -6,6 +6,8 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
+import FunctionClick from './components/FunctionClick'
+import ClassFunctionClick from './components/ClassFunctionClick'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,8 +16,9 @@ function App() {
     <div className="App">
 
       <Message/>
-{/* 
-      <Greet name='Steven'>
+      <FunctionClick/>
+      <ClassFunctionClick/>
+      {/* <Greet name='Steven'>
         <p1> heeee </p1> 
       </Greet>  
 
@@ -26,7 +29,7 @@ function App() {
       </Greet> */}
 
 
-      <Greet name='even' children='lol'/>  
+      {/* <Greet name='even' children='lol'/>   */}
       {/* <Welcome name='bob'/>  */}
       {/* <Hello/> */} 
     </div>
