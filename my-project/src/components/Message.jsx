@@ -10,7 +10,7 @@ class Message extends Component{
             message: "Welcome Visitor",
             message2: 'WELCOME HEHE',
             counter: 0
-        }
+        } 
     }
 
     changeMessage(){

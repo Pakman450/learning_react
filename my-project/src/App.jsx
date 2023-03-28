@@ -8,6 +8,7 @@ import Hello from './components/Hello'
 import Message from './components/Message'
 import FunctionClick from './components/FunctionClick'
 import ClassFunctionClick from './components/ClassFunctionClick'
+import EventBind from './components/EventBind'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,9 +16,11 @@ function App() {
   return (
     <div className="App">
 
-      <Message/>
+      <EventBind/>
+
+      {/* <Message/>
       <FunctionClick/>
-      <ClassFunctionClick/>
+      <ClassFunctionClick/> */}
       {/* <Greet name='Steven'>
         <p1> heeee </p1> 
       </Greet>  
