@@ -9,14 +9,16 @@ import Message from './components/Message'
 import FunctionClick from './components/FunctionClick'
 import ClassFunctionClick from './components/ClassFunctionClick'
 import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <ParentComponent/>
 
-      <EventBind/>
+      {/* <EventBind/> */}
 
       {/* <Message/>
       <FunctionClick/>
