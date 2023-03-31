@@ -10,13 +10,15 @@ import FunctionClick from './components/FunctionClick'
 import ClassFunctionClick from './components/ClassFunctionClick'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <ParentComponent/>
+      <UserGreeting></UserGreeting>
+      {/* <ParentComponent/> */}
 
       {/* <EventBind/> */}
 
